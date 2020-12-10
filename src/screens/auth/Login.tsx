@@ -1,10 +1,16 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-export default function App() {
+export default function Login() {
+  const navigation = useNavigation();
+  navigation.setOptions({
+    headerShown: false,
+  });
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Login</Text>
     </View>
   );
 }

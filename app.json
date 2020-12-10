@@ -1,0 +1,12 @@
+{
+  "name": "TryToTrain",
+  "displayName": "TryToTrain",
+  "expo": {
+    "name": "TryToTrain",
+    "slug": "TryToTrain",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
